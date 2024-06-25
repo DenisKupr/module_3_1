@@ -20,11 +20,10 @@ def is_contains(string, list_to_search):
     list_to_search = [item.lower() for item in list_to_search]
     return string in list_to_search
 
-# Примеры вызовов функций
+
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
 print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBan
 print(is_contains('cycle', ['recycle', 'cyclic'])) # No matches
 
-# Вывод значения переменной calls
 print(calls)
